@@ -24,5 +24,5 @@ aka: {alternative muscle group name}, {secondary alternate muscle group name}
 
 The [shoulders.md][2] is a decent example to follow.
 
-[1]: /tree/master/docs
-[2]: /tree/master/docs/shoulders.md
+[1]: docs
+[2]: docs/shoulders.md
