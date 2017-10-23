@@ -1,5 +1,7 @@
 # Biceps
 
+aka: Bi, Bis
+
 ## Biceps Brachii
 
 Targets
