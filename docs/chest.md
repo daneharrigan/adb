@@ -1,5 +1,7 @@
 # Chest
 
+aka: Pecs
+
 ## Pectoralis Major
 
 Targets
