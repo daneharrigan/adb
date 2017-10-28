@@ -1,5 +1,7 @@
 # Shoulders
 
+aka: Delts
+
 ## Deltoids
 
 Targets

@@ -1,4 +1,8 @@
-# edb
+# adb
+
+A fitness focused anatomy database.
+
+## Introduction
 
 Collection of muscle groups, muscles, and areas of a muscle that can be
 targeted.
