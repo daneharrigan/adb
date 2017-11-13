@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "Example Group",
+      "aliases": ["Example Group Alias"],
+      "muscles": [
+        {
+          "name": "Example Muscle",
+          "targets": [
+            {
+              "name": "Example Target",
+              "aliases": ["Example Target Alias", "Example Target Alias 2"]
+            }
+          ]
+        },
+        {
+          "name": "Example 2 Muscle"
+        }
+      ]
+    }
+  ]
+}
