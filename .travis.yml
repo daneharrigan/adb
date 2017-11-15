@@ -1,0 +1,11 @@
+language: go
+script: bin/build
+deploy:
+  provider: releases
+  skip_cleanup: true
+  api_key:
+    secure: q34MHstRpLLVUeI5WOlluSRpv7kv922dc5ZxaVX37K90hjTrNoNxkzO8WEYNSsx58ik0AMhc9UwhoVS89PfSRf9rjO/ybSG6xUcf1OTjjG1LC9FDviDEsqiq9na/VydBCKoZXiwJzeE5+c9qsNJ+zUxxKXkWSDcKVZvqgY+ISPV7+PT4SlGx3OJRiWyFYzYjwza8mspOCbM4SXPzHXMvptnwfm6Lqd0R78xv8GlXcujjbjmRi8V+fI5eFyHXJs0ATBAtU8FBM07eZA2bPgVAXmWw0b922ssxZQHVgawANua2pw97gtoftsXIw1NZeCYkH7QiLJ/EcYA9fRUsJ+PnPzBZ3M5uOkfyOcl0N7+k0r8CRAEH/rAY5BOx0nHcDmFsiv5vI0Hb46zokdP9ivTTi3H5i/1PP/Goiwl+BgUi4atA29y4HL741SXyzNlplPotHdI1+AecAJIE14al1xdbRDIbJXEQJhQgafxFH43FGnpNRUxNwdHcY1+Q308A/nQ+36KJRmts4dT2xiZmCHI6X0i9uM21TL4U2vocsNktjQMXZpODvgO4olbj7DuE7Wms03+cvavru8TlQLHZm1riajqQ0RjpBSXptzvkHQCKST5n7LIr1fCGwRGW+A/6xt0lAfAKBWCiwM1btvS6T+3SpAnU7589LhlHUKEFu/PwYMo=
+  file_glob: true
+  file: artifacts/*
+  on:
+    tags: true
