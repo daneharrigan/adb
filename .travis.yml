@@ -1,0 +1,12 @@
+language: go
+script: bin/build
+deploy:
+  provider:
+    matrix:
+    - releases
+    api_key:
+      secure: b61wdfMuM9gaYw7YRAN5pnMre5ral/QpTgRcBl/wo/meAGcBoNjzJUrgocrSkH32vS/XFTnEa9f+TOizc9qth0eNbd02JeZ6MbQeJhiJxbVnVbq8Cas8iJdqW5T/iNq5j8RcVMqpQ5/Lq7Jcpn4Ri8NB8+NYT1jnzZkppGcqf3UV0OvHeAn+N8fdC3Cm9qKEvEbf5tHWFPh+lCILz65U3UY0rLrCWOWMXCgelE6s07tdTFa9dmHGCIBVRbRH+2ckkUii0Y9vygCWSX98K3ZnYOwV3u02s1NdfB1AZpIurpAhz0h+NyFBUc3uPMqeSMs3rvt/+ySEWc7y1FsZs3qBZsynU0oTZ9+MCaSk6hcilpSM5WHDC8m0PU4FNwfriqFxdba5l/1V8STJUjG9387nk5TXv5EwyRJG5Fwhw5YWsBEt+k8r4FRaPBSBWnsarR+utvA0GFg8BMjX2AT0wuT7khRHornPS3SEH5W9DEAYlW4I7OwYgozod2JFjyBlysg34HbZD/sGRg0arMHo5fx4O5ruKkfArwUmLLW9D07e6M7Tln/veGg8HdFfynIOd71wfx2Eh3szuPl9oxWrr0iw6PAia3dmZrTwk65MLvAHchmXu+oqR4Y2DpOb9x1+IE4hUeypR8EkjzBcC4B72jZLPgBgoJzsX8vPPivaSgNHztU=
+  file: artifacts.tgz
+  skip_cleanup: true
+  on:
+    tags: true

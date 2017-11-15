@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -e
+
+go test -race -v ./cmd/...
+go build -o bin/release ./cmd/release/...
+mkdir -p artifacts
+bin/release -d docs -a artifacts
+tar czvf artifacts.tgz artifacts
